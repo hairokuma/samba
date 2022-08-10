@@ -1,5 +1,14 @@
 # Samba Docker
 
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
+
 ### Dockerfile
 alpine -> install samba -> copy smb.conf -> start samba
 
